@@ -1,6 +1,7 @@
 
   header {
-    /*overflow: hidden;*/
+    /*overflow: auto;*/
+    
     background-color: #262626;
     text-align: center;
     border-bottom: white solid 6px;
@@ -34,5 +35,8 @@
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;
+    }
+    header{
+        height: 120px;
     }
   } 
