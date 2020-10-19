@@ -18,6 +18,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-style: bold;
       font-size: 30px;
+      word-wrap: break-word;
   }
 
  .column {
