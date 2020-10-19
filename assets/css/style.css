@@ -6,6 +6,7 @@
     text-align: center;
     border-bottom: white solid 6px;
     box-shadow: 0px 4px 8px #888888;
+
   }
 
   h1 {
@@ -31,14 +32,16 @@
     display: table;
     clear: both;
   } 
-
-  @media screen and (max-width: 600px) {
+img{
+    max-width: 100%;
+    height: auto;
+}
+  @media screen and (max-width: 800px) {
     .column {
       width: 100%;
     }
     header{
-        
-        width: 100%;
         object-fit: contain;
+        width: 100%;
     }
   } 
