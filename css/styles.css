@@ -10125,6 +10125,13 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+@media screen and (max-width: 550px){
+
+ header.masthead{
+   background-image: url("../assets/img/header-bg_mb.png");
+   }
+
+}
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -10151,6 +10158,7 @@ header.masthead .masthead-heading {
     line-height: 2.25rem;
     margin-bottom: 2rem;
   }
+ 
   header.masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
