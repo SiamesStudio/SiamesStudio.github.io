@@ -279,6 +279,17 @@ button:not(:disabled),
 [type=submit]:not(:disabled) {
   cursor: pointer;
 }
+.carousel-item {
+  height: 55vh;
+  min-height: 350px;
+  width: 2vh;
+  min-width: 20px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 button::-moz-focus-inner,
 [type=button]::-moz-focus-inner,
