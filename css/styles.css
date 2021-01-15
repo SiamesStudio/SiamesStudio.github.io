@@ -288,7 +288,7 @@ button:not(:disabled),
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: 1000px 500px;
 }
 
 button::-moz-focus-inner,
@@ -5984,7 +5984,7 @@ a.close.disabled {
 
 .carousel-caption {
   position: absolute;
-  right: 15%;
+  right: 10%;
   bottom: 20px;
   left: 15%;
   z-index: 10;
